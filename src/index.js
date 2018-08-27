@@ -65,8 +65,8 @@ import NavBar from '../packages/nav-bar/index.js';
 import Gallery from '../packages/gallery/index.js';
 import ValueSwitcher from '../packages/value-switcher/index.js';
 import DatePickerJoined from '../packages/date-picker-joined/index.js';
-import Calendar from '../packages/calendar/index.js';
 import CircularCountdown from '../packages/circular-countdown/index.js';
+import Calendar from '../packages/calendar/index.js';
 import locale from 'tmconsulting-ui/src/locale';
 import CollapseTransition from 'tmconsulting-ui/src/transitions/collapse-transition';
 
@@ -81,7 +81,6 @@ const components = [
   DropdownMenu,
   DropdownItem,
   Menu,
-  Calendar,
   Submenu,
   MenuItem,
   MenuItemGroup,
@@ -137,6 +136,7 @@ const components = [
   ValueSwitcher,
   DatePickerJoined,
   CircularCountdown,
+  Calendar,
   CollapseTransition
 ];
 
@@ -177,7 +177,6 @@ module.exports = {
   CollapseTransition,
   Loading,
   Pagination,
-  Calendar,
   Dialog,
   Autocomplete,
   Dropdown,
@@ -241,7 +240,8 @@ module.exports = {
   Gallery,
   ValueSwitcher,
   DatePickerJoined,
-  CircularCountdown
+  CircularCountdown,
+  Calendar
 };
 
 module.exports.default = module.exports;
